@@ -12,7 +12,7 @@ fs.readFile('./inputs/input.txt', 'utf-8', (err, data) => {
 	 let arrOfIds = dataArray[1].split(' ');
 
 	 if(n % 2 === 0 && getUniq(arrOfIds) === '') {
-		console.log('Всё сотрудники записали свои ID')
+		console.log('Все сотрудники записали свои ID')
 		return
 	 }     
 
